@@ -31,10 +31,10 @@ not_found_handling = "single-page-application"
 # database_name = "img_d1"
 # database_id = ""
 
-# [[r2_buckets]]
-# binding = "img_r2"
-# bucket_name = ""
+[[r2_buckets]]
+binding = "img_r2"
+bucket_name = "img"
 
-# [[kv_namespaces]]
-# binding = "img_url"
-# id = ""
+[[kv_namespaces]]
+binding = "img_url"
+id = "acc9b2ca9af9459fba4f9d7b705f3444"
